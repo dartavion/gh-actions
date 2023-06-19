@@ -12,3 +12,5 @@ jobs:
           node-version: '18.x'
       - run: npm install bats
       - run: npm run bats -v
+      - run: node -v
+      - run: npm -v
